@@ -1,4 +1,4 @@
-<!--
+
  Project developed in the Modern JavaScript Course.
 
 About the project:
@@ -7,4 +7,4 @@ About the project:
 Technologies:
     -Html Sematic
     -CSS
-    -JavaScript -->
+    -JavaScript 
