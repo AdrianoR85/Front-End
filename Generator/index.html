@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38d8d296c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="text-box">
+            <h1 class="title">Password Generator</h1>
+            <p class="subtitle">User our online generator to create a stong and secure password</p>
+        </section>
+
+        <section class="box">
+            <div class="password-container">
+                <div class="password-text">
+                    <input type="text" id="password" />
+                </div>
+                <div class="password-buttom">
+                    <button title="Copy">
+                        <i class="fa-solid fa-copy" id="copy-password" ></i>
+                    </button>
+                    <button title="Generate">
+                        <i class="fa-sharp fa-solid fa-arrows-rotate" id="refresh"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="security-indicator">
+                <div class="bar"></div>
+            </div>
+        </section>
+
+        <section class="box customize">
+            <h2 class="customize-title">Personalize</h2>
+            <div class="action">
+                <div class="password-length">
+                    <p>Width: <span class="password-length-text">16</span></p>
+                    <input
+                        type="range"
+                        name="password-length"
+                        id="password-length"
+                        class="slider"
+                        value="16"
+                        min="8"
+                        max="64"
+                    />
+                </div>
+                
+                <div class="config">
+                    <label class="checkbox-container">
+                        <span for="number-check">Uppercase</span>
+                        <input type="checkbox" id="uppercase-check" name="uppercase-check" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        <span for="number-check">Numbers</span>
+                        <input type="checkbox" id="numbers-check" name="number-check" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">
+                        <span for="number-check">Symbols</span>
+                        <input type="checkbox" id="symbols-check" name="symbols-check" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>
