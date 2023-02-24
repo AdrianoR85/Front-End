@@ -219,8 +219,3 @@ main {
 .checkbox-container input:checked ~ .checkmark::after {
     display: block;
 }
-
-
-.imgReadme {
-    width: 20px;
-}

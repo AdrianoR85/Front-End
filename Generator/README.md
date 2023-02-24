@@ -1,5 +1,5 @@
 <div align="center">
-    <h1 >Password Generator</h1>
+    <h1>Password Generator</h1>
     <p>Project developed in the Modern JavaScript Course.</p>
     <img  src="password-generator.png">
 </div>
@@ -13,3 +13,6 @@
     <li>CSS</li>
     <li>Javascript</li>
 </ul> 
+
+<h2>Link:</h2>
+<a href="https://passwordgenerator64.netlify.app/">passwordgenerator64.netlify.app</a>
