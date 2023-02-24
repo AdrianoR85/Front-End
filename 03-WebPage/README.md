@@ -16,4 +16,4 @@
 
 
 ### Link:
-https://adrianor85.github.io/7DaysOfCode-HTML-CSS/
+https://webpagehire.netlify.app/
