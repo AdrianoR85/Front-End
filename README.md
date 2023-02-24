@@ -29,8 +29,8 @@
                 <a href="05-movie-seat-booking"><img width="200" height="134" src="img/05-preview.png"></a>
             </td>
             <td width="300">
-                <p align="center">04-Adopet</p>
-                <a href="04-Adopet"><img width="200" height="132" src="img/06-preview.png"/></a>
+                <p align="center">06-Generator</p>
+                <a href="06-Generator"><img width="200" height="132" src="img/06-preview.png"/></a>
             </td>
         </tr>
     </table>
