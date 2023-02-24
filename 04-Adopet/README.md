@@ -2,7 +2,7 @@
 
 <div align="center">
     <p>WebPage challenge</p>
-    <img src="../img/03-preview.png">
+    <img src="../img/04-preview.png">
 </div>
 
 ## About challenge:
