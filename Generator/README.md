@@ -15,4 +15,4 @@
 </ul> 
 
 <h2>Link:</h2>
-<a href="https://passwordgenerator64.netlify.app/">passwordgenerator64.netlify.app</a>
+<a href="https://passwordgenerator64.netlify.app/" target="_blank">passwordgenerator64.netlify.app</a>
