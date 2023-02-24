@@ -1,0 +1,10 @@
+.contact__form {
+   background-color: var(--lightgray);
+   padding: 1rem;
+   margin: 1rem 0;
+   text-align: left;
+}
+
+.contact__message::placeholder {
+    text-align: left;
+}

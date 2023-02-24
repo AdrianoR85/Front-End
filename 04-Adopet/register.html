@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style/register.css">
+    <link rel="stylesheet" href="assets/style/general/form.css">
+    <link rel="stylesheet" href="assets/style/general/body.css">
+    <link rel="stylesheet" href="assets/style/general/background.css">
+    <link rel="stylesheet" href="assets/style/general/menu.css">
+    <link rel="stylesheet" href="assets/style/general/button.css">
+    <link rel="stylesheet" href="assets/style/general/footer.css">
+</head>
+<body class="bg-header">
+    
+    <header class="menu">
+        <img class="menu__logo" src="assets/image/Logo-header.png" alt="">
+        <a class="menu__icon" href="index.html"><img src="assets/image/Casa.png" alt="icone da página home"></a>
+        <a class="menu__icon" href="contact.html"><img  src="assets/image/Mensagens.png" alt="icone da página home"></a>
+    </header>
+    <div class="bg-patas"></div>
+    <main class="bg-left body__container bg-right--tablet">
+        <div class="logo-blue">
+            <img src="assets/image/Logo-blue.png" alt="logo da empresa">
+        <div>
+        <h1 class="register__title body-text">Ainda não tem cadastro?</h1>
+        <p class="register__text body-text">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+
+        <form class="form" action="get">
+            <div class="form-div">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input form-input--gray" type="email" name="email" id="registerEmail" placeholder="Escolha seu melhor email">
+            </div>
+
+            <div class="form-div">
+                <label class="form-label" for="name">Nome</label>
+                <input class="form-input form-input--gray" type="text" name="name" id="registerName" placeholder="Digite seu nome completo">
+            </div>
+
+            <div class="form-div">
+                <label class="form-label" for="password">Senha</label>
+                <input class="form-input input__icon form-input--gray form-input--pass" type="password" name="password" id="registerPassword" placeholder="Crie uma senha">
+            </div>
+
+            <div class="form-div">
+                <label class="form-label" for="name">Confirma sua senha</label>
+                <input class="form-input input__icon form-input--gray form-input--pass" type="text" name="confirmPassword" id="registerConfirmPassword" placeholder="Repita a senha criada">
+            </div>
+        </form>
+            
+        <button class="button button--last">Cadastrar</button>
+    </main>
+
+    <footer class="footer">
+        <p>2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

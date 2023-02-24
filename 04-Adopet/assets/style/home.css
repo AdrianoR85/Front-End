@@ -1,0 +1,57 @@
+.card__list {
+    display: grid;
+    gap: 20px;
+}
+
+.home__title {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem 2rem;
+}
+.card {
+    display: grid;
+    grid-template-areas: 
+    'img name name'
+    'img info info'
+    'img info info'
+    'img info info'
+    'img city city'
+    'img contact contact';
+    color: var(--gray);
+    background-color: var(--lightgray);
+    text-align: left;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+}
+
+.card__image {grid-area: img;}
+.card__name {grid-area: nome;}
+.card__info {grid-area: info;}
+.card__city{grid-area: city; font-size: .75rem;}
+.card__contact {
+    grid-area: contact;
+    display: flex;
+    justify-content: left;
+    font-size: 0.625rem;
+    gap: 10px;
+}
+
+@media (min-width: 760px) {
+    .card__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 760px) {
+    .card__list {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+

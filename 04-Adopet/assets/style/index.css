@@ -1,0 +1,38 @@
+.index__content {
+    margin: 0 auto;
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 1.5rem;
+}
+
+
+.index__title {
+    font-size: 1.625rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+@media (min-width: 0px) {
+    .index__text--add::before {
+        content: 'Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!';
+    }
+}
+
+@media (min-width: 600px) {
+    .index__title {
+        font-size: 1.75rem;
+    }
+
+    .index__content {
+        margin-top: 0;
+    }
+    .index__text--add::before {
+        content: 'Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!';
+    }
+}
+
+@media (min-width: 900px) {
+    .index__content {
+        margin-top: 0rem;
+    }
+}

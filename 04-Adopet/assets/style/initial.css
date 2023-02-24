@@ -1,0 +1,24 @@
+@import url(general/style.css);
+.initial__bg {
+    background-image: var(--image-bg-4);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom -1rem center;
+
+    width: 100%;
+    height: 250px;
+    margin-top: 2rem;
+    flex-grow: 1;
+}
+
+.initial__text-color {
+    color: var(--white);
+    padding: 0 3rem ;
+}
+
+.initial__title {
+    font-size: 1.625rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+

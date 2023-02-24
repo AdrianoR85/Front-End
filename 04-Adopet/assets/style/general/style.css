@@ -1,0 +1,24 @@
+:root {
+    --blue: #3772FF;
+    --green: #36D6AD;
+    --white: #FFFFFF;
+    --coral: #FC7071;
+    --gray: #737380;
+    --lightgray: #F6F6F6;
+    --gray-input: #BCBCBC;
+
+    --image-bg-1: url("../../image/background/header.svg");
+    --image-bg-2: url("../../image/background/left.svg");
+    --image-bg-3: url("../../image/background/right.svg");
+    --image-bg-4: url("../../image/background/dog-cat.svg");
+    --logo-header: url("../../image/Logo-header.png");
+    --image-patas: url("../../image/background/Patas.svg");
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+@import url(../general/style.css);
+.form-input {
+    margin: 0 auto;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    margin-top: .2rem;
+    width: 100%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.form-input::placeholder {
+    font-size: 0.75rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(--gray-input);
+}
+
+.form-input--white {
+    background-color: var(--white);
+    padding: 1.3rem;
+}
+
+.form-input--gray {
+    background-color: var(--lightgray);
+}
+
+.form-label{
+    display: block;
+    color: var(--gray);
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+.form-label--blue {
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.form-div {
+    padding: 1rem 0;
+}
+
+@media (min-width: 1200px) {
+    .form-input--pass {
+        width: 70%;
+    }
+}

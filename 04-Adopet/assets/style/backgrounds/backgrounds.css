@@ -1,0 +1,99 @@
+
+.bg__index {
+    background-color: var(--blue); 
+    background-repeat: no-repeat;
+}
+
+.bg__01 {
+    background-repeat: no-repeat;
+}
+
+/* MOBILE */
+@media (min-width: 0px) {
+    .bg__index {
+        background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/dog-cat.svg),
+            url(../../image/background/right.svg); 
+        background-color: var(--blue); 
+        background-position: 
+            left top, 
+            bottom 2rem center,
+            right center; 
+        background-size:17rem, 13rem, 4rem;
+    }
+    
+    .bg__01 {
+        background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/left.svg),
+            url(../../image/background/Patas.png);
+        background-repeat: no-repeat;
+        background-position: 
+            left top, 
+            left bottom 4rem,                  
+            right top;
+        background-size: 17rem, 4rem, 6rem;
+    }
+    
+    .bg__02 {
+        background-image: url(../../image/background/header.svg);
+        background-repeat: no-repeat;
+        background-size: 17rem;
+        z-index: -1;
+    }
+}
+
+/* Tablet */
+@media (min-width:600px){
+    .bg__index, .bg__01, .bg__02 {
+        background-size:60%, auto, 80px;
+    }
+
+    .bg__01 {
+        background-image: 
+            url(../../image/background/header.svg), 
+            url(../../image/background/Patas.png),
+            url(../../image/background/right.svg);
+        background-repeat: no-repeat;
+        background-position: 
+            left top, 
+            right top,
+            right center; 
+        background-size:60%, 30px, 80px;                
+    }
+}
+
+/* LAPTOP */
+@media (min-width:900px) {
+    .bg__index, .bg__01, .bg__02 {
+        background-size: 534px, 180px, 85px;
+    }
+
+    .bg__02 {
+        background-image: 
+            url(../../image/background/header.svg),
+            url(../../image/background/right.svg);
+        background-position: left top, right center;
+        background-repeat: no-repeat;
+        background-size: 400px, 85px;
+    }
+}
+
+/* DESKTOP */
+@media (min-width:1400px) {
+    .bg__index, .bg__01 {
+        background-size:550px, 230px, 100px;
+    }
+
+    .bg__02 {
+        background-size: 550px, 100px;
+    }
+}
+
+
+
+
+
+
+
