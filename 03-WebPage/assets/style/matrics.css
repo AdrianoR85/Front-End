@@ -1,0 +1,35 @@
+.metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding: 3rem 0;
+}
+
+.metrics__item {
+    padding: 2rem 1rem;
+}
+
+.metrics__number {
+    font-size: 3.75rem;
+    color: var(--red-color);
+}
+
+.metrics__info {
+    font-size: 1.25rem;
+    color: var(--black-color);
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.metrics__description {
+    color: var(--main-color);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 680px) {
+    .metrics {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

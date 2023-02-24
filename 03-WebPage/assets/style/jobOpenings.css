@@ -1,0 +1,41 @@
+.jobOpenings {
+    padding: 0rem 1rem;
+    width: 50%;
+}
+
+.jobOpenings__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem 0;
+}
+
+.jobOpenings__title {
+    font-size: 1.25rem;
+    color: var(--black-color);
+    padding: 3rem 0;
+}
+
+.jobOpenings__job {
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.jobOpenings__jobTitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    grid-column: span 2;
+}
+
+.jobOpenings__info{
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 800px) {
+    .jobOpenings {
+        width: 100%;
+    }
+}

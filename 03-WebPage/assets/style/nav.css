@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+    padding: 2rem 1rem;
+    font-family: var(--main-font);
+    font-size: 1.1rem;
+}
+
+.navbar__links {
+    display: flex;
+    list-style-type: none;
+    padding-right: 10rem;
+}
+
+.link {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 2rem;
+    color: var(--main-font);
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar__links--mobile {
+        position: fixed;
+        display: flex;
+        bottom: 0;
+        align-items: center;
+        justify-content: space-around;
+        background-color: var(--red-color);
+        color: var(--white-color);
+        padding-right: 0;
+        padding: 1rem;
+        left: 0;
+        width: 100%;
+
+        border-radius: 10px 10px 0 0;
+    }
+    .link {
+        font-size: 0.8rem;
+        margin-right: 0;
+        font-family: 'icones', sans-serif;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar__links {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar__links {
+        padding-right: 0;
+    }
+}
+

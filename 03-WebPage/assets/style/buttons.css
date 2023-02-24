@@ -1,0 +1,41 @@
+.button {
+    border: none;
+    border-radius: 7px;
+    background-color: var(--white-color);
+    color: var(--main-color);
+    padding: 0.9rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.button__login {
+    margin-right: 1rem;
+}
+
+.button_register {
+    background-color: var(--button-color);
+    color: var(--white-color);
+}
+
+@media screen and (max-width: 800px) {
+    .buttons {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .button {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .button_register {
+        display: block;
+    }
+}
+
