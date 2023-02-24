@@ -18,5 +18,5 @@ A web page, where you selects the desired film and seat. If you adds or removes 
 
 
 
-Link https://adrianor85.github.io/movie-seat-booking/
+Link https://web-seat-booking.netlify.app/
 
