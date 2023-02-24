@@ -30,7 +30,7 @@
             </td>
             <td width="300">
                 <p align="center">04-Adopet</p>
-                <a href="04-Adopet"><img width="200" height="132" src="img/04-preview.png"/></a>
+                <a href="04-Adopet"><img width="200" height="132" src="img/06-preview.png"/></a>
             </td>
         </tr>
     </table>
