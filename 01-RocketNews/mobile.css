@@ -1,0 +1,34 @@
+@media (max-width: 854px) {
+    .logo {
+        max-width: 250px;
+    }
+    .content {
+        margin-top: 4rem;
+    }
+
+    .content__title{
+        font-size: 20px;
+    }
+
+    .content__firstText {
+        line-height: 16px;
+    }
+    
+    .page_right {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .form img {
+        left: calc(100% - 40px);
+    }
+
+    .form__button {
+        font-weight: 500;
+    }
+}
+

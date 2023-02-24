@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketNews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<body>
+    <section class="page_right">
+        <header>
+            <img class="logo" src="assets/logo.svg" alt="">
+        </header>
+
+        <article class="content">
+            <h1 class="content__title">atualize ideias e informações em 5 minutos.</h1>
+            <p class="content__firstText">Tudo que você precisa saber para começar seu dia bem e informado</p>
+            <p class="content__secondText">noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor. perfeito para se preparar para codar ☕</p>
+
+            <form action="" class="form">
+                <label class="form__label" for="email">Insira seu email</label>
+                <input 
+                    class="form__input" 
+                    type="email" 
+                    name="email" 
+                    placeholder="exemplo@exemplo.com"
+                    required
+                    pattern="/(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|
+                    \\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|
+                    \[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:
+                    (?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/"
+                ><img src="assets/arrow.png" alt="">
+                <button class="form__button">deixe-me ler primeiro</button>
+            </form>
+        </article>
+    </section>
+
+</body>
+</html>
