@@ -1,5 +1,8 @@
-<h1>Password Generator</h1>
-<p>Project developed in the Modern JavaScript Course.</p>
+<div align="center">
+    <h1 >Password Generator</h1>
+    <p>Project developed in the Modern JavaScript Course.</p>
+    <img  src="password-generator.png">
+</div>
 
 <h2>About the project:</h2>
 <p>A password manager in which the user can select the amounts and types of characters that the password will have. According to the choices the Manager informs the password level</p>
