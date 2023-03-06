@@ -36,11 +36,11 @@
         <tr align="center">
             <td width="300">
                 <p align="center">07-Calculator</p>
-                <a href="07-Calculator"><img width="200" height="134" src="img/07-preview.png"></a>
+                <a href="07-Calculator"><img width="200" height="134" src="img/07-preview1.jpg"></a>
             </td>
             <td width="300">
-                <!-- <p align="center"></p> -->
-                <!-- <a href="#"><img width="200" height="132" src="#"/></a> -->
+                <p align="center">08-Dashboard</p>
+                <a href="#"><img width="200" height="132" src="img/08-preview.jpg"/></a>
             </td>
         </tr>
     </table>

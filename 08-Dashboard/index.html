@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app grid">
+        <div class="box nps">
+            <div class="box__top">NPS geral</div>
+            <div class="box__middle--nps grid">
+                <img src="assets/Group 3.svg" alt="smile image">
+                <span>Excelente!</span>
+            </div>
+            <div class="box__bottom box__bottom--nps ">
+                <span>NPS Score</span>
+                <span>75</span>
+            </div>
+        </div>
+        <div class="box sell">
+            <div class="box__top">Vendas fechadas</div>
+            <div class="box__middle">
+                <svg viewBox="0 0 232 232" style="--percentage: 70">
+                    <circle cx="50%" cy="50%" r="98.5" opacity="0.1" stroke="#D9D9D9"
+                    />
+                    <circle cx="50%" cy="50%" r="98.5" stroke="url(#paint0_linear_201_85)"
+                    />
+                    <defs>
+                        <linearGradient
+                          id="paint0_linear_201_85"
+                          x1="-9"
+                          y1="82"
+                          x2="145"
+                          y2="178"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                        <stop stop-color="#CE9FFC" />
+                        <stop offset="1" stop-color="#7367F0" />
+                </svg>
+                <div class="middle__content">
+                    <h3>70%</h3>
+                    <p>Alcançado</p>
+                </div>
+            </div>
+            <div class="box__bottom">
+                <div class="bottom__item">
+                    <span>Esperados</span>
+                    <span>100</span>
+                </div>
+                <div class="bottom__item">
+                    <span style="--bg-circle-color: linear-gradient(121.94deg, #CE9FFC 15.98%, #7367F0 82.85%);">Alcançados</span>
+                    <span>70</span>
+                </div>
+            </div>
+        </div>
+        <div class="box target">
+            <div class="box__top">Meta Mensal</div>
+            <div class="box__middle">
+                <svg viewBox="0 0 232 232" style="--percentage: 90">
+                    <circle cx="50%" cy="50%" r="98.5" opacity="0.1" stroke="#D9D9D9"
+                    />
+                    <circle cx="50%" cy="50%" r="98.5" stroke="url(#paint0_linear_201_84)"
+                    />
+                    <defs>
+                        <linearGradient
+                          id="paint0_linear_201_84"
+                          x1="-9"
+                          y1="82"
+                          x2="145"
+                          y2="178"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                        <stop stop-color="#DF9780" />
+                        <stop offset="1" stop-color="#A66DE9" />
+                </svg>
+                <div class="middle__content">
+                    <h3>90%</h3>
+                    <p>Alcançado</p>
+                </div>
+            </div>
+            
+            <div class="box__bottom">
+                <div class="bottom__item">
+                    <span>Esperados</span>
+                    <span>R$ 70K</span>
+                </div>
+                <div class="bottom__item" >
+                    <span style="--bg-circle-color:linear-gradient(121.94deg, #DF9780 15.98%, #A66DE9 82.85%);">Alcançados</span>
+                    <span>R$ 36K</span>
+                </div>
+            </div>
+        </div>
+        <div class="box weekly-sell grid">
+            <h3>Vendas por dia da semana</h3>
+
+            <div class="weekly-sell__wrapper">
+                <div class="wrapper__right grid">
+                    <div class="wrapper__most-sell grid">
+                        <span>Dia com mais vendas</span>
+                        <span>quarta-feira</span>
+                    </div>
+                    <div class="wrapper__less-sell grid">
+                        <span>Dia com menos vendas</span>
+                        <span>domingo</span>
+                    </div>
+                </div>
+                <div class="wrapper__left grid" style="--bar-height: 3.9rem">
+                    <div class="wrapper__bars">
+                        <div class="bar"></div>
+                        <span class="day">dom</span>
+                    </div>
+                    <div class="wrapper__bars" style="--bar-height: 11.5rem">
+                        <div class="bar"></div>
+                        <span class="day">seg</span>
+                    </div>
+                    <div class="wrapper__bars" style="--bar-height: 7.6rem">
+                        <div class="bar"></div>
+                        <span class="day">ter</span>
+                    </div>
+                    <div class="wrapper__bars" style="--bar-height: 15.9rem">
+                        <div class="bar"></div>
+                        <span class="day">qua</span>
+                    </div>
+                    <div class="wrapper__bars" style="--bar-height: 12.9rem">
+                        <div class="bar"></div>
+                        <span class="day">qui</span>
+                    </div>
+                    <div class="wrapper__bars" style="--bar-height: 12.0rem">
+                        <div class="bar"></div>
+                        <span class="day">sex</span>
+                    </div>
+                    <div class="wrapper__bars" style="--bar-height: 6.9rem">
+                        <div class="bar"></div>
+                        <span class="day">sab</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
