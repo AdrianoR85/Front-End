@@ -40,7 +40,7 @@
             </td>
             <td width="300">
                 <p align="center">08-Dashboard</p>
-                <a href="#"><img width="200" height="132" src="img/08-preview.jpg"/></a>
+                <a href="08-Dashboard"><img width="200" height="132" src="img/08-preview.jpg"/></a>
             </td>
         </tr>
     </table>
