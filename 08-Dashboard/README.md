@@ -10,18 +10,43 @@
 Millena Kupsinskü Martins</p>
 
 
-<h2>Technologies:</h2>
+## 🚀 Technologies:
 <ul>
     <li>Html</li>
     <li>CSS</li>
-    <ul>
-    <li>Grid</li>
-    <li>Flex</li>
-    <li>Variable</li>
-    <li>Other</li>
-    </ul>
+    <li>SVG</li>
 </ul> 
 
+## 📚 Knowledge applied or acquired in the project:
+
+```md
+# CSS
+
+- apply variable by attribute HTML
+- animations / @keyframes
+- column-gap / row-gap
+- grid-template-columns / grid-template-rows / grid-column / grid-auto-flow
+- fit-content
+- place-content / align-self / justify-items / justify-content
+- grid/flex/
+- :nth-child() / ::before
+- transform / matrix() / rotate()
+- stroke / dasharray / dashoffset / stroke-width / linecap
+- fill
+- responsive layout / mobile first / @media
+- clip-path / polygon
+- linear-gradient()
+
+# SVG
+
+- viewBox
+- circle
+- cx / cy
+- r
+- stroke
+- defs
+- linearGradient
+```
 
 <h2>
 <a href="https://github.com/AdrianoR85/Front-End"><-- BACK</a>
