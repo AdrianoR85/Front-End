@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Calculator</h1>
+    <h1>Dashboard</h1>
     <p>Challenge proposed by RocketSeat.</p>
     <img src="../img/08-preview2.png">
 </div>
