@@ -2,6 +2,7 @@
     <h1>Dashboard</h1>
     <p>Challenge proposed by RocketSeat.</p>
     <img src="../img/08-preview2.png">
+    <img src="../img/08-preview3.png">
 </div>
 
 <h2>About the project:</h2>

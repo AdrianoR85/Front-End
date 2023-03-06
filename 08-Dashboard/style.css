@@ -25,13 +25,13 @@ body {
 
 .app {
     background-color: #1E1E1E; 
-    /* grid-template-columns: max-content; */
+    grid-template-columns: 100vw;
 
     /* column-gap: 3.2rem; */
     row-gap: 5.9rem;
 
     min-width: 100vw;
-    width: fit-content;
+    /* width: fit-content; */
 
     min-height: 100vh;
     height: fit-content;
@@ -45,14 +45,13 @@ body {
 
     background-color:  #363447;
     box-shadow: 3px 4px 26px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
 
     color: #fff;
 }
 
 /* ------- START TOP --------- */
 .box__top {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     text-align: center;
     font-weight: 600;
 }
@@ -75,7 +74,7 @@ body {
 }
 
 .box__middle .middle__content h3 {
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     margin-bottom: 0.5rem;
 }
 
@@ -91,6 +90,7 @@ body {
 /* ------- START BOTTOM --------- */
 .box__bottom {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
     font-size: 1.4rem;
     justify-content: center;
@@ -117,6 +117,7 @@ body {
 }
 
 .box__bottom--nps {
+    flex-direction: row;
     gap: 1rem;
 }
 /* ------- END BOTTOM --------- */
@@ -124,15 +125,15 @@ body {
 /* ------- START SVG --------- */
 svg {
     --percentage: 0;
-    width: 19.7rem;
-    height: 19.7rem;
+    width: 16.7rem;
+    height: 16.7rem;
     transform: rotate(-90deg);
 }
 
 svg circle {
     stroke-dasharray: 618;
     stroke-dashoffset: 618;
-    stroke-width: 35;
+    stroke-width: 25;
     fill: none;
 }
 
@@ -160,7 +161,7 @@ svg circle:nth-child(2) {
     gap: 3.2rem
 }
 .weekly-sell h3 {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
 }
 
 .weekly-sell__wrapper {
@@ -182,14 +183,14 @@ svg circle:nth-child(2) {
 
 .weekly-sell .wrapper__right span:nth-child(1) {
     opacity: 0.8;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
     display: flex;
     align-items: center;
 }
 
 .weekly-sell .wrapper__right span:nth-child(2) {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
 }
 
 .wrapper__right span:nth-child(1)::before {
@@ -234,23 +235,45 @@ svg circle:nth-child(2) {
     z-index: 1;
 }
 .wrapper__bars .bar {
-    width: 1.5rem;
+    width: 1rem;
     height: var(--bar-height);
     border-radius: 999px;
     background: linear-gradient(180deg, #90F7EC 0%, #32CCBC 100%);
 
     align-self: end;
 }
+
+.wrapper__bars .day {
+    font-size: 1rem;
+}
 /* ------- END WEEKLY SELL --------- */
 
-@media (min-width: 120rem) {
+@media (min-width: 80rem) {
     .app {
         grid-template-columns: 29.6rem max-content max-content;
         column-gap: 3.2rem;
+        width: fit-content;
+    }
+
+    .app .box {
+        border-radius: 16px;
+    }
+
+    .box__middle .middle__content h3 {
+        font-size: 3.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .box__bottom {
+        flex-direction: row;
     }
 
     .weekly-sell {
         grid-column: 1/4;
+    }
+
+    .weekly-sell h3 {
+        font-size: 2.4rem;
     }
 
     .weekly-sell__wrapper {
@@ -259,5 +282,32 @@ svg circle:nth-child(2) {
 
     .wrapper__right {
         flex-direction: column;
+    }
+
+    svg {
+        --percentage: 0;
+        width: 19.7rem;
+        height: 19.7rem;
+        transform: rotate(-90deg);
+    }
+
+    svg circle {
+        stroke-width: 35;
+    }
+
+    .weekly-sell .wrapper__right span:nth-child(1) {
+        font-size: 1.4rem;
+    }
+
+    .weekly-sell .wrapper__right span:nth-child(2) {
+        font-size: 2.4rem;
+    }
+
+    .wrapper__bars .bar {
+        width: 1.5rem;
+    }
+
+    .wrapper__bars .day {
+        font-size: 2rem;
     }
 }
