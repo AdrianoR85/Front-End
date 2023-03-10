@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple music player">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="display">
+        <section class="display__image">
+            <img src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+        </section>
+        <section class="display__info">
+            <h1 class="info__music-title">Music Title</h1>
+            <p class="info__bands-name">Band's name</p>
+        </section>
+        <section class="display__control">
+            <button class="preview">
+                <img src="assets/image/preview.svg" alt="">
+            </button>
+            <button class="play">
+                <img src="assets/image/play.svg" alt="">
+            </button>
+            <button class="next">
+                <img src="assets/image/next.svg" alt="">
+            </button>
+        </section>
+        <section class="display__timer">
+            <div class="timer__bars">
+                <div class="empty__bar"></div>
+                <div class="full-bar"></div>
+            </div>
+            <time class="timer__number">
+                <span>00:00</span>
+                <span>02:00</span>
+            </time>
+        </section>
+    </main>
+</body>
+</html>

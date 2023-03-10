@@ -43,5 +43,15 @@
                 <a href="08-Dashboard"><img width="200" height="132" src="img/08-preview.jpg"/></a>
             </td>
         </tr>
+        <tr align="center">
+            <td width="300">
+                <p align="center">09-Music Player</p>
+                <a href="09-Music-Player"><img width="200" height="134" src="img/09-preview.jpg"></a>
+            </td>
+            <td width="300">
+                <p align="center"></p>
+                <a href="#"></a>
+            </td>
+        </tr>
     </table>
 </p>
