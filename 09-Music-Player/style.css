@@ -15,7 +15,8 @@
     font-size: 62.5%;
     --bg-body-color: #0F0D13;
     --bg-displayer-color: #2A2141;
-    --text-color: #E1E1E6; 
+    --text-color: #E1E1E6;
+    --bar-color:  #E1E1E6;
 }
 
 body {
@@ -83,27 +84,25 @@ body {
 }
 
 /* TIMER */
-.display__timer .timer__bars {
-    position: relative;
+.display__progress .progress__bars {
     margin-bottom: .8rem;
-} 
-.timer__bars .empty__bar {
-    width: 100%;
+    cursor: pointer;
     background-color: var(--text-color);
-    opacity: .6;
-    height: .6rem;
+    width: 100%;
+    opacity: 1;
+    height: 0.6rem;
     border-radius: 999px;
-    position: absolute;
-}
+} 
 
-.timer__bars .full-bar {
+.progress__bars .full-bar {
     width: 0%;
     height: .6rem;
-    background-color: var(--text-color);
     border-radius: 999px;
+    opacity: .6;
+    background-color: var(--bg-displayer-color);
 }
 
-.display__timer .timer__number {
+.display__progress .timer__number {
     font-size: 1.4rem;
     opacity: .6;
     display: flex;

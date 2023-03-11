@@ -5,7 +5,7 @@ const btnNext = document.querySelector('#next')
 const audio = document.querySelector("#audio")
 const img = document.querySelector('#playImage')
 
-const progress = document.querySelector('.timer__bars')
+const progressConatiner = document.querySelector('.progress__bars')
 const progressBar = document.querySelector('.full-bar')
 
 const songName = document.querySelector('#song-name')
@@ -80,6 +80,7 @@ function updateProgress(e) {
 
     getSongTime(songCurrentTime, currentTime)
     getSongTime(songTotalTime, duration)
+    
     progressBar.style.width = `${progressPercent}%`   
 }
 
@@ -116,4 +117,4 @@ btnNext.addEventListener('click', nextSong)
 
 audio.addEventListener('timeupdate', updateProgress)
 audio.addEventListener('ended', nextSong);
-progress.addEventListener('click', setProgress)
+progressConatiner.addEventListener('click', setProgress)
