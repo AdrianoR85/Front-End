@@ -31,7 +31,6 @@ body {
 .display {
     display: grid;
     gap: 2.8rem;
-
     padding: 3.8rem;
 
     background-color: var(--bg-displayer-color);
@@ -45,17 +44,18 @@ body {
     width: 19rem;
     height: 19rem;
     border-radius: .6rem;
+    display: grid;
 }
 
 /* INFO */
 .display__info .info__music-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: .8rem;
 }
 
 .display__info .info__bands-name {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     opacity: .6;
 }
 
@@ -78,6 +78,10 @@ body {
     transform: scale(.9);
 }
 
+.display__control button[type='title'] {
+    display: none;
+}
+
 /* TIMER */
 .display__timer .timer__bars {
     position: relative;
@@ -93,7 +97,7 @@ body {
 }
 
 .timer__bars .full-bar {
-    width: 10%;
+    width: 0%;
     height: .6rem;
     background-color: var(--text-color);
     border-radius: 999px;
@@ -105,3 +109,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.ytp-play-button {
+    fill: #fff;
+    opacity: 0.85;
+ }

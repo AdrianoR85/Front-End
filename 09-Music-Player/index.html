@@ -13,31 +13,38 @@
         <section class="display__image">
             <img src="https://images.unsplash.com/photo-1557672172-298e090bd0f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
         </section>
+
         <section class="display__info">
-            <h1 class="info__music-title">Music Title</h1>
-            <p class="info__bands-name">Band's name</p>
+            <h1 class="info__music-title" id="song-name"></h1>
+            <p class="info__bands-name" id="singer-name"></p>
         </section>
+
         <section class="display__control">
-            <button class="preview">
-                <img src="assets/image/preview.svg" alt="">
+            <button class="preview" id="preview">
+                <img src="assets/image/preview.svg" alt="button preview">
             </button>
-            <button class="play">
-                <img src="assets/image/play.svg" alt="">
+            <button class="play" id="play">
+                <img src="assets/image/play.svg" alt="button play" id="playImage">
             </button>
-            <button class="next">
-                <img src="assets/image/next.svg" alt="">
+            <button class="next" id="next">
+                <img src="assets/image/next.svg" alt="button next">
             </button>
         </section>
+
+        <audio src="assets/music/Best Of Me.mp3" id="audio"></audio>
+
         <section class="display__timer">
             <div class="timer__bars">
                 <div class="empty__bar"></div>
                 <div class="full-bar"></div>
             </div>
             <time class="timer__number">
-                <span>00:00</span>
-                <span>02:00</span>
+                <span id="songCurrentTime">00:00</span>
+                <span id="songTotalTime">00:00</span>
             </time>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
