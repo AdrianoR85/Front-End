@@ -46,7 +46,7 @@
         <tr align="center">
             <td width="300">
                 <p align="center">09-Music Player</p>
-                <a href="09-Music-Player"><img width="200" height="134" src="img/09-preview.jpg"></a>
+                <a href="09-Music-Player"><img width="200" height="134" src="img/preview.jpg"></a>
             </td>
             <td width="300">
                 <p align="center"></p>
