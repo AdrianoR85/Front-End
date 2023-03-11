@@ -14,6 +14,8 @@ Daniel Duarte</p>
 <ul>
     <li>Html</li>
     <li>CSS</li>
+    <li>JavaScript</li>
+    
 </ul> 
 
 ## 📚 Knowledge applied in the project:
@@ -32,7 +34,16 @@ Daniel Duarte</p>
 
 # HTML
     - Semantic
-
+    - audio
+  
+# JavaScript
+    - audio event / pause / play / 
+    - audio properties / currentTime / duration
+    - function
+    - addEventListener / click / ended / timeupdate
+    - list / object
+    - style
+    - DOM
 ```
 
 <h2>
