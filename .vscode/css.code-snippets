@@ -18,13 +18,16 @@
 			"\t-moz-osx-font-smoothing: grayscale;",
 			"}",
 			"",
+			"ul {",
+			"\tlist-style: none;",
+			"}",
 			":root {",
 			"\tfont-size: 62.5%;",
 			"}",
 			"",
 			"body {",
 			"\tfont-size: 1.6rem;$1",
-			"}"
+			"}",
 		],
 		"description": "Init my CSS"
 	}

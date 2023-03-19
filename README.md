@@ -49,8 +49,8 @@
                 <a href="09-Music-Player"><img width="200" height="134" src="img/preview.jpg"></a>
             </td>
             <td width="300">
-                <p align="center"></p>
-                <a href="#"></a>
+                <p align="center">10-Currency Converter</p>
+                <a href="10-Currency"><img width="200" height="134" src="img/10-preview.jpg"></a>
             </td>
         </tr>
     </table>

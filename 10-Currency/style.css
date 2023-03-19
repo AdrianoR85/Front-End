@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    
+    display: grid;
+    place-content: center;
+    
+    font-size: 1.6rem;
+    font-family: "Inter", sans-serif;
+
+    background-color: #F8FAFC;
+    color: #0F172A;
+}
+
+main {
+    box-shadow: 0px 4px 32px rgba(15, 23, 42, 0.15);
+    padding: 6.4rem 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.money h1 {
+    font-size: 1.6rem;
+}
+
+.money__currency {
+    display: flex;
+    align-items: center;
+    padding: 1.6rem;
+    background-color: #fff;
+    position: relative;
+    width: 28rem;
+    border-radius: .8rem;
+    outline: .1rem solid #94A3B8;
+}
+
+.money__amount {
+    width: 50%;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    color: #0F172A;
+}
+
+.money__country {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 13rem;
+    height: 5.6rem;
+
+    overflow: hidden;
+}
+
+.money__country:hover {
+    overflow: initial;
+    height: fit-content;
+}
+
+.money__country .fis {
+    font-size: 2.4rem;
+    border-radius: 50%;
+}
+
+.money__selected {
+    padding: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+   
+    cursor: pointer;
+
+    border-radius: 0 0.8rem 0.8rem 0;
+}
+
+.money__selected::before {
+    content: '';
+    width: .1rem;
+    height: 2.4rem;
+    background-color: #94A3B8; 
+    
+    position: absolute;
+    left: 0;
+} 
+
+.money__selected::after {
+    content: '';
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url(assets/chevron-down.svg);
+}
+
+.money_dropdown {
+    width: 13rem;
+    max-height: 17rem;
+
+    margin-top: .8rem;
+
+    overflow-y: scroll;
+    list-style: none;
+
+    box-shadow: 0 .4rem 1.6rem rgba(15, 23, 42, .15);
+    background-color: #fff;
+    border-radius: .8rem;
+
+    position: relative;
+    z-index: 1;
+}
+
+.money_dropdown li {
+    padding: 1.6rem;
+
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    cursor: pointer;
+}
+
+.money_dropdown li:hover {
+    background-color: #94A3B8;
+} 
+
+
+.money__arrows-exchange {
+    text-align: center;
+}
+
+
+
+
+    
+
