@@ -8,7 +8,7 @@
 
 <h2>About the project:</h2>
 <p>A front-end project where we should had to develop a Currency Converter based on the proposed layout.</p>
-<p><a href="#">Layout</a> developed by Ilana Mallak</p>
+<p><a href="https://www.figma.com/file/Q8njNbopPs24AKgDZit93j/%23boraCodar---Desafio-9-(Community)?node-id=1-5&t=xevpzMxcn59QCbZW-0">Layout</a> developed by Ilana Mallak</p>
 
 
 ## 🚀 Technologies:
