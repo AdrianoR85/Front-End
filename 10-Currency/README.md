@@ -8,8 +8,7 @@
 
 <h2>About the project:</h2>
 <p>A front-end project where we should had to develop a Currency Converter based on the proposed layout.</p>
-<p><a href="#">Layout</a> developed by 
-Daniel Duarte</p>
+<p><a href="https://www.figma.com/file/Q8njNbopPs24AKgDZit93j/%23boraCodar---Desafio-9-(Community)?node-id=1-5&t=xevpzMxcn59QCbZW-0">Layout</a> developed by Ilana Mallak</p>
 
 
 ## 🚀 Technologies:
@@ -31,12 +30,9 @@ Daniel Duarte</p>
     - position / relative / absolute
     - pseudo-classe / hover / active
 
-# HTML
-    - Semantic
-
 # JavaScript
     - In construction
-```
+``` -->
 
 <h2>
 <a href="https://github.com/AdrianoR85/Front-End"><-- BACK</a>
