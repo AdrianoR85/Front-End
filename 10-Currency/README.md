@@ -1,6 +1,6 @@
-# Project under construction
+# Page under construction
 
-<!-- <div align="center">
+<div align="center">
     <h1>Music Player</h1>
     <p>Challenge proposed by RocketSeat.</p>
     <!-- <img src="#"> -->
@@ -36,7 +36,7 @@ Daniel Duarte</p>
 
 # JavaScript
     - In construction
-``` -->
+```
 
 <h2>
 <a href="https://github.com/AdrianoR85/Front-End"><-- BACK</a>
