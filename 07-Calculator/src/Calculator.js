@@ -27,7 +27,7 @@ export default class Calculator {
 
         this.operation = operation;
         this.previousOperand = this.currentOperand;
-        this.currentOperand = '';      
+        this.currentOperand = '';
     };
 
     calculate() {
@@ -65,7 +65,7 @@ export default class Calculator {
         this.previousOperandElement.innerText = `${this.previousOperand}${this.operation || ''}`;
         this.currentOperandElement.innerText = this.currentOperand;
     }
-    
+
     deleteLastDigit() {
         this.currentOperand = this.currentOperand.slice(0,-1)
     }

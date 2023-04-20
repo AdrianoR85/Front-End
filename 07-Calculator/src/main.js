@@ -73,9 +73,7 @@ const mapKeyboard = {
 
 const map = (e) => {
     const key = e.key
-    console.log(key)
     const data = 'data-'+mapKeyboard[key]
-    console.log(data)
     document.querySelector(`[${data}]`).click()
 }
 

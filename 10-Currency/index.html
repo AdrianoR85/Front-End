@@ -11,41 +11,46 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
     <link rel="stylesheet" href="style.css">
-      
+
 </head>
 <body>
     <main>
       <section class="money">
         <h1>Currency Converter</h1>
-        <div class="money__wrapper">
-            <div class="money__currency">
-                <input type="text" class="money__amount" value="$ 1.000">
-                <div class="money__country">
-                    <div class="money__selected">
-                        <span class="fi fi-us fis" id="flag01"></span>   
-                        <span id="cod01">USD</span>   
+
+        <div class="wrapper">
+            <div class="money__wrapper">
+                <div class="money__currency">
+                    <input type="text" class="money__amount" id="converterFrom"  value="1">
+                    <div class="money__country">
+                        <div class="money__selected">
+                            <span class="fi fi-us fis" id="flag01"></span>
+                            <span id="cod01">USD</span>
+                        </div>
+                        <ul class="money_dropdown">
+                        </ul>
                     </div>
-                    <ul class="money_dropdown">
-                    </ul>
                 </div>
-            </div>                   
-        </div>
-        <div class="money__arrows-exchange">
-            <img src="assets/arrows-exchange.svg" alt="">
-        </div>
-        <div class="money__wrapper">
-            <div class="money__currency">
-                <input type="text" class="money__amount" value="$ 5.200">
-                <div class="money__country">
-                    <div class="money__selected">
-                        <span class="fi fi-br fis" id="flag02"></span>   
-                        <span id="cod02">BRL</span>   
+            </div>
+            <div class="money__arrows-exchange">
+                <img src="assets/arrows-exchange.svg" alt="">
+            </div>
+            <div class="money__wrapper">
+                <div class="money__currency">
+                    <input type="text" class="money__amount" value="5,26"
+                    id="converterTo">
+                    <div class="money__country">
+                        <div class="money__selected">
+                            <span class="fi fi-br fis" id="flag02"></span>
+                            <span id="cod02">BRL</span>
+                        </div>
+                        <ul class="money_dropdown">
+                        </ul>
                     </div>
-                    <ul class="money_dropdown">
-                    </ul>
                 </div>
-            </div>                   
+            </div>
         </div>
+        <button id="btn-exchangeRate" class="btn">Convert</button>
       </section>
     </main>
 

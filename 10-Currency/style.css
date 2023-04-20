@@ -12,10 +12,10 @@
 
 body {
     height: 100vh;
-    
+
     display: grid;
     place-content: center;
-    
+
     font-size: 1.6rem;
     font-family: "Inter", sans-serif;
 
@@ -26,8 +26,10 @@ body {
 main {
     box-shadow: 0px 4px 32px rgba(15, 23, 42, 0.15);
     padding: 6.4rem 2rem;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    display: grid;
+    justify-content: center;
 }
 
 .money {
@@ -87,7 +89,7 @@ main {
     display: flex;
     align-items: center;
     gap: .8rem;
-   
+
     cursor: pointer;
 
     border-radius: 0 0.8rem 0.8rem 0;
@@ -97,11 +99,11 @@ main {
     content: '';
     width: .1rem;
     height: 2.4rem;
-    background-color: #94A3B8; 
-    
+    background-color: #94A3B8;
+
     position: absolute;
     left: 0;
-} 
+}
 
 .money__selected::after {
     content: '';
@@ -139,15 +141,57 @@ main {
 
 .money_dropdown li:hover {
     background-color: #94A3B8;
-} 
+}
 
 
 .money__arrows-exchange {
     text-align: center;
 }
 
+.money__arrows-exchange img {
+    cursor: pointer;
+}
+
+.btn {
+    padding: 1rem 0;
+    border-radius: .5rem;
+    border: none;
+    background-color: #94A3B8;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+    transition: transform.2s ease-in-out, opacity .4s ease-in-out;
+    margin-top: 2rem;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
 
 
+@media (min-width: 60rem) {
+    main {
+        height: fit-content;
+        width: fit-content;
+        border-radius: 1rem;
+    }
 
-    
+    .btn {
+        margin: 2rem auto 0;
+        width: 50%;
+    }
+}
 
+@media (min-width: 50rem) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+    }
+}

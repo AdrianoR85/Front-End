@@ -53,5 +53,11 @@
                 <a href="10-Currency"><img width="200" height="134" src="img/10-preview.jpg"></a>
             </td>
         </tr>
+        <tr align="center">
+            <td width="300">
+                <p align="center">11-Note App</p>
+                <a href="11-Note"><img width="200" height="134" src="img/11-preview.png"></a>
+            </td>
+        </tr>
     </table>
 </p>
